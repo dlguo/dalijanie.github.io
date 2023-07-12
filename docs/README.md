@@ -14,3 +14,4 @@ To start a local server: `jekyll serve`
 # Deploying
 
     ./script/deploy.sh
+
