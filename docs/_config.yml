@@ -7,6 +7,7 @@ baseurl: ""
 host: 0.0.0.0 # listen to LAN connections
 gems:
   - jekyll-sitemap
+  - sass-embedded
 
 # Build settings
 markdown: kramdown
