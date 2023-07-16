@@ -26,11 +26,11 @@ locations:
     coordinates: 41.872592,-87.62481
     google_maps_url: https://www.google.com/maps/place/Hilton+Chicago/@41.8725329,-87.6248502,17z/data=!4m7!1m4!3m3!1s0x880e2c99242c7a2f:0x4de3d4bb09dba1!2sHilton+Chicago!3b1!3m1!1s0x880e2c99242c7a2f:0x4de3d4bb09dba1
   vashi: &vashi_location
-    location_name: Vashi Residence
-    address1: 211 N Savanna Ct.
-    address2: Lake Forest, IL 60045
-    coordinates: 42.243377,-87.878189
-    google_maps_url: https://www.google.com/maps/place/211+N+Savanna+Ct,+Lake+Forest,+IL+60045/@42.244292,-87.8793387,17z/data=!3m1!4b1!4m2!3m1!1s0x880f951707bd6ae1:0xee4caaaf8316d979
+    location_name: Fog Room
+    address1: 1610 2nd Ave
+    address2: Seattle, WA 98101
+    coordinates: 47.61100720851152,-122.3402225864979
+    google_maps_url: https://goo.gl/maps/6X7Gkbam4uxUVAFx7
   navy_pier: &navy_pier_location
     location_name: Navy Pier Grand Ballroom
     address1: 600 E Grand Ave.
@@ -86,51 +86,13 @@ hotels:
 
 events:
   chi:
-    - name: 晚餐
+    - name: 🍸晚餐🍸
       date: 2023/08/04
-      time: 7pm
-      attire: Casual
-      description: A casual family gathering where henna is applied in intricate designs to the hands and feet of the bride and her female guests. Meant as one of many ritual adornments for the Hindu bride, it is said that the darker the henna turns out, the greater the love the bride has for her groom.  Mehndi artists also hide the groom’s name or initials into the bride’s henna design and it is her job to find them before the wedding. Traditionally, the bride is not allowed to work in her husband’s house until after the mehndi has completely faded. Further, with their hands covered in henna paste, the women of the party are unable to cook or serve during the Mehndi celebration, so the men are invited to feed and serve the women.
+      time: 6:00 PM - 9:00 PM
+      attire: Smart Casual
+      description: 考虑到二月份其实我们已经在King County的一座<a href="https://kingcounty.gov/courts/superior-court/locations/cfjc.aspx">Juvenile Court</a>领过证了，而且我们也<del>偷懒</del>不想弄传统的仪式流程，所以我们特意选了一家Rooftop Bar来邀请大家一起吃吃小食喝喝饮料，目的呢，就是有个机会可以把朋友们聚集起来一起开心玩一玩，所以千万不要拘束，有什么问题和想法（比如想玩什么游戏，想表演什么节目）可以随时和我们提。因为是Bar所以不会serve plated food，只会有小吃之类的，具体的菜单呢我会放到FAQ里，同时因为是小食，理论上是会在活动期间不间断serve的，please help yourself。既然是bar酒🍹一定是管够的，想喝酒的朋友们可以考虑打车🚖或者代驾🤔
       transportation:
       <<: *vashi_location
-    - name: Garba
-      date: Friday, May 27, 2016
-      time: 7pm
-      attire: Semi-formal
-      description: A night of traditional Gujarati folk dancing! Set to energetic music, garba is a style of group dance performed as a ritual homage to a the Hindu goddess of creation, Ambama. Garba is usually accompanied by Raas, a similar style of dance dedicated to the Hindu god Krishna that incorporates a set of sticks called Dandiya. Both are traditionally performed during the Gujarati festival of Navratri (“nine-nights”) and also as a precedent to special occasions such as weddings. Everyone is invited and encourage to join in the dancing - don’t worry, there will be tutorials!  And keep an eye out for a few special performances from close family and friends.
-      transportation: Discounted self-parking will be available.
-      <<: *hilton_location
-    - name: Hindu Wedding
-      date: Saturday, May 28, 2016
-      time: 10am
-      attire: Formal
-      description: The Hindu wedding ceremony as described by the Vedas, the Hindu scriptures, is over 5,000 years old and is traditionally performed in the Sanskrit language. The ceremony commemorates the bride and groom no longer existing as two independent souls but as a spiritual oneness. Ceremonies include the Barat (Arrival of the Groom), Pokhna Vidhi (Welcoming of the Groom), Jai Mala (Exchange of Garlands), Vastra Granthi Bandhan (Tying the Knot), Mangalphera (Holy Circles around the Fire), and Saptapadi (Taking Life’s Seven Steps).
-      transportation: Discounted self-parking will be available.
-      <<: *hilton_location
-    - name: Catholic Wedding
-      date: Sunday, May 29, 2016
-      time: 3pm
-      attire: Black Tie Optional
-      description: The traditional Catholic wedding is enhanced in Filipino culture by several traditions. Ceremonial sponsors or godparents are chosen by the betrothed as role models for their future married life and participate in the procession with the bridal party. Two separate candles are lit at the beginning of the ceremony, which the bride and groom then join into a single flame signifying the union of their two families. A veil is placed over the shoulders of the bride and groom during the ceremony, demonstrating the clothing of two individuals as one. A cord is then looped in a figure 8 and placed over the heads of the bride and group to signify everlasting fidelity.
-      transportation: Limited self-parking available.
-      shuttle: Transportation will also be provided between Hilton Chicago and St. Michael in Old Town.
-      <<: *st_michael_location
-    - name: Reception
-      date: Sunday, May 29, 2016
-      time: 5:30pm
-      attire: Black Tie Optional
-      description: Join us for dinner and dancing as we celebrate our marriage into the night!
-      transportation: Complimentary valet parking will be available at Navy Pier. Follow signs for Navy Pier parking to the East Parking garage, entrance two.
-      shuttle: Transportation will also be provided between St. Michael in Old Town, Navy Pier and Hilton Chicago.
-      <<: *navy_pier_location
-  lbc:
-    - name: Reception
-      date: Satuday, June 4, 2016
-      time: 7pm
-      attire: Semi-formal
-      description: Join us for dinner and dancing as we celebrate our marriage into the night!
-      transportation:
-      <<: *aquarium_location
 
 people:
   families:
@@ -246,47 +208,23 @@ people:
       description: Chris’ Post-College  Roommate
 faq:
   chi:
-    - question: OMG what do I wear?
+    - question: 我们一定会来哒！但是怕到时候忘记了😭，有什么可以提示我的吗？
+    - answer: |
+        右上角有一个链接是RSVP，你可以点一下告诉我们你们的名字，有几个人会来，需不需要停车，吃东西的忌口等等消息，我们都会帮大家安排！同时也有一个链接可以把时间地点加到你的calendar里。希望在8/4见到你哦♥️
+    - question: 我们需要穿什么来参加呢？有没有dress code？
       answer: |
-        The Garba night on Friday is primarily a night of Indian folk dancing, so be prepared to kick off your shoes, roll up your sleeves and get a light aerobic workout in!
+        我们选择了Rooftop Bar作为聚会的场所就是希望场合能够自然轻松一些。到时候大力会穿business casual的套装，菁爽会穿白色的不拖地长裙。所以你可以自由决定你穿什么样的衣服来参加我们的婚礼！当然啦，我们会请摄影师帮我们拍一些照片，所以你希望照片好看也可以穿正式一些没关系。至于casual的话不穿拖鞋🩴就行😂。
 
-        <strong>Ladies</strong>: While Indian clothing is entirely appropriate, it's definitely not necessary! A colorful dress or skirt and top works well - it doesn't have to be super fancy. Avoid wearing black or white if you can. If you have something Indian or are planning on buying/borrowing, I would suggest a simple <a href="https://www.google.com/search?q=salwar+kameez&espv=2&biw=1440&bih=801&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwikz62d5NzMAhUB3IMKHXPABVUQsAQIGw">Salwar Kameez</a> or <a href="https://www.google.com/search?q=lehenga&espv=2&biw=1440&bih=801&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj1h8Ot5NzMAhWF7IMKHTBCBxAQ_AUIBigB">Lehenga</a>.
-        <strong>Gentelmen</strong>: Think dress pants and a button-down shirt. Consider the jacket and tie optional.
-
-        The Indian wedding ceremony on Saturday will be considerably less active (but will still include some dancing during the Baraat!) and is a more formal occassion.
-
-        <strong>Ladies</strong>: For this event, wear what you would wear to a more formal wedding. Again, Indian clothing is appropriate but not required.  However, if you were going to pick one event to wear that outfit you borrowed from your Indian friend, this would be it. If you're going with American attire, formal cocktail dresses and evening wear is most appropriate. Again, try to avoid wearing white, black, or red (usually worn by the bride). If you're wearing something Indian, a more formal lehenga (see above) works, but this would also be a great opportunity to wear a <a href="https://www.google.com/search?q=lehenga&espv=2&biw=1440&bih=801&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj1h8Ot5NzMAhWF7IMKHTBCBxAQ_AUIBigB#tbm=isch&q=sari">sari</a>. Keep in mind that a sari is a challenge to put on, so if you do decide to go this route, keep your eyes open for an email about where/when to meet on Saturday morning to get some assistance tying your sari!
-        <strong>Gentlemen</strong>: Break out the jacket and tie for this one, and thanks in advance for dealing with the midday heat!
-
-        The Catholic ceremony and reception on Sunday will be a little more formal than Saturday's events.
-
-        <strong>Ladies</strong>: Wear your formal evening wear!  If you've got a full-length gown hanging in the back of your closet, this would be a great opportunity to break it out. No color restrictions here (except maybe not white - don't want to be confused for the bride!). At some Indian events, the guests have time to change outfits before the reception, however there won't be time for a costume change at our event so plan on wearing your dress/gown all night.
-        <strong>Gentlemen</strong>: Jacket and ties are encouraged. For those with a tuxedo, this would be a good time to dust that off too, but it's by no means required to get past the bouncers (There won't be any bouncers.)
-
-    - question: Do you have a sari I can borrow?
+    - question: 你这个地方怎么停车呢？
       answer: |
-        Maybe! Nikita has already doled out many of her Indian outfits, but if you're still interested shoot her an email (nvashi25@gmail.com) and she'll check.
+        在前面的部分有提到，如果你想大量饮酒的话还是建议打车或者拼车。如果你<del>很不幸</del>成为了那个开车的人，我们会给大家提供停车的validation。希望你可以在右上角的RSVP里告诉我你需要停车。具体停车的信息我们会在一周左右再做更新，我们会通过RSVP留下的邮箱通知你。
     - question: |
-        I have a pretty seriously allergy to [insert allergen here], can you accomodate me?
+        我们在纠结给你们送什么礼物🎁好，你们有什么备选项吗？
       answer: |
-        Yes! Get in touch with us ASAP, so we can make sure we keep any [insert allergen here] away from you!
-    - question: Should I rent a car?
-      answer: |
-        No! For those guests coming from out of town, we will be providing transportation to and from all the events and the hotels. Even if you're staying somewhere else or want to explore more of the city, we'd highly recommend taking public transportation or cabs around downtown Chicago since parking in the city is hard to find and typically not cheap.
-
-        Check out our section on <a href="/details/#getting-around">Getting Around</a> for more info.
-    - question: What's happening Saturday night and Sunday morning?
-      answer: |
-        Nothing! There will be lunch served directly after the Hindu ceremony on Saturday, but after that, you're free! There are a lot of things going on in Chicago that weekend, so consider this half-time. Feel free to explore the city at your own pace, and rest up before the home stretch.
-    - question: Is Chris going to ride in on a/an [insert large mammal here]?
-      answer: |
-        No, unless you're asking if Chris is going to ride a horse. Then the answer is yes - Chris is going to ride in on a white horse at the Baraat on Saturday.
-    - question: Do I have to dance at the Garba?
-      answer: No! Although we have a feeling you're going to want to once you see everyone doing it. Peer pressure is a real thing.
-    - question: What kind of sick moves am I going to learn on Friday night?
-      answer: Friday night will consist of garba and raas, two different styles of Indian dance. Garba is a repetitive, circular group dance (think electric slide, but in a circle). Raas is a partner dance (don't worry - we'll find you all partners!) with sticks that happens in long rotating lines.  I know this sounds complex, but we'll be hosting tutorials on Friday night and will have plenty of people circulating to answer any questions about the dance.  And, for those of you with some dance anxiety, there will be an open bar :)
-    - question: I heard you're moving!  Where and when?
-    - answer: We are!  We're moving to Seattle directly after the wedding so Nikita can start her internal medicine residency at University of Washington, so we're extremely excited to spend this last epic Chicago weekend with you all :)
+        首先，我们邀请了Seattle我们最最亲近的朋友们，我们对礼物没有任何要求，你们能够抽出时间参加我们已经非常非常感激了！但是我们也很理解你想给我们一些祝福，但又担心礼物送的不喜欢。如果你真的希望送上物质的祝福：<br>
+        如果你真的有想好，”我觉得我的想法很别出心裁，这样东西大力和菁爽一定喜欢”，那你完全可以把这样东西带到现场送给我们（或者邮给我们），我们一定会感受到你的用心！<br>
+        如果你觉得“我会担心大力和菁爽不喜欢这样东西，有没有他们一定喜欢且需要的礼物呢？”那么你可以在<a href="https://registry.theknot.com/dali-g-janie-c-september-2024/61837262" target="_blank">Wedding Registry</a>挑选一些我们列好的物品。（PS：嗯。。。目前我们还在攻克一些技术上的问题，所以registry现在还没东西。等同步成功之后我们会再给RSVP的邮箱发邮件告诉你们的！）<br>
+        如果你看到了Wedding Registry的物品你觉得不合适，那么你也可以直接转账给Venmo(@mycokegdl)或者Chase Quickpay/Zelle(daleyguo@gmail.com)，谢谢你的祝福！我们也会告诉大家我们最后用这些现金买了什么礼物的～
 
   lbc: false
 

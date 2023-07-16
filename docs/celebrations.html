@@ -1,10 +1,10 @@
 ---
 layout: info
-title: Celebrations
+title: 恰饭
 billboard_class: billboard-stairs
 ---
 {% for event in site.events[site.context] %}
-  <section class="container content-section {% cycle 'text-left', 'text-right' %}">
+  <section class="container content-section text-center">
     <div class="row">
       <div class="col-lg-7 col-lg-offset-{% cycle 2, 3 %} col-sm-offset-2 col-sm-8">
         <h2>
@@ -24,12 +24,12 @@ billboard_class: billboard-stairs
             </a>
           </address>
 
-<!--           <dl class="col-xs-4 text-right">
-            <dt>Attire</dt>
+          <dl class="col-xs-4 text-right">
+            <dt>Dress Code</dt>
             <dd>{{ event.attire }}</dd>
           </dl>
 
- -->        </div>
+        </div>
 
         <p>{{ event.description }}</p>
         
@@ -45,3 +45,31 @@ billboard_class: billboard-stairs
     </div>
   </section>
 {% endfor %}
+  <section class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-7 col-lg-offset-2 col-sm-offset-2 col-sm-8">
+        <h2>
+          📝节目单📝
+        </h2>
+<p>
+  <strong>6:00 PM - 6:20 PM</strong> 💍交换戒指💍<br>
+  <strong>6:20 PM - 6:30 PM</strong> 👬祝福时刻👬<br>
+  <strong>6:30 PM - 7:30 PM</strong> 🍖吃吃喝喝🍖<br>
+  <strong>7:30 PM - 8:00 PM</strong> 🎲快乐游戏🎲<br>
+  <strong>8:00 PM - 9:00 PM</strong> 🍸吃好喝好🍸<br>
+
+
+</p>
+        
+        {% if event.transportation %}
+          <p><em>{{ event.transportation }}</em></p>
+        {% endif %}
+
+        {% if event.shuttle %}
+          <p><em>{{ event.shuttle }}</em></p>
+        {% endif %}
+
+      </div>
+    </div>
+  </section>
+
