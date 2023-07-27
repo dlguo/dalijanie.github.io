@@ -90,7 +90,12 @@ events:
       date: 2023/08/04
       time: 6:00 PM - 9:00 PM
       attire: Smart Casual
-      description: 考虑到二月份其实我们已经在King County的一座<a href="https://kingcounty.gov/courts/superior-court/locations/cfjc.aspx">Juvenile Court</a>领过证了，而且我们也<del>偷懒</del>不想弄传统的仪式流程，所以我们特意选了一家Rooftop Bar来邀请大家一起吃吃小食喝喝饮料，目的呢，就是有个机会可以把朋友们聚集起来一起开心玩一玩，所以千万不要拘束，有什么问题和想法（比如想玩什么游戏，想表演什么节目）可以随时和我们提。因为是Bar所以不会serve plated food，只会有小吃之类的，具体的菜单呢我会放到FAQ里，同时因为是小食，理论上是会在活动期间不间断serve的，please help yourself。既然是bar酒🍹一定是管够的，想喝酒的朋友们可以考虑打车🚖或者代驾🤔
+      description: 考虑到二月份其实我们已经在King County的一座<a href="https://kingcounty.gov/courts/superior-court/locations/cfjc.aspx">Juvenile Court</a>领过证了，而且我们也<del>偷懒</del>不想弄传统的仪式流程，所以我们特意选了一家Rooftop Bar来邀请大家一起吃吃小食喝喝饮料，目的呢，就是有个机会可以把朋友们聚集起来一起开心玩一玩，所以千万不要拘束，有什么问题和想法（比如想玩什么游戏，想表演什么节目）可以随时和我们提。因为是Bar所以不会serve plated food，只会有小吃之类的，具体的菜单呢我会放到FAQ里，同时因为是小食，理论上是会在活动期间不间断serve的，please help yourself。既然是bar酒🍹一定是管够的，想喝酒的朋友们可以考虑打车🚖或者代驾🤔<br>
+        <p>地点是在Fog Room，如果你停车在<a href="https://goo.gl/maps/3nJwURA6svnUPtDP8">3rd & Steward Garage</a>，你可以根据⬇️下图⬇️找到Fog Room。从<a href="https://goo.gl/maps/xmXYoSsiVDHHat4c7">The Charter Hotel Seattle</a>进门之后问reception从哪里坐电梯去16楼的Fog Room就好。</p>
+
+        <p><img src="../img/map.png" alt="Direction to Fog Room"></p>
+        
+
       transportation:
       <<: *vashi_location
 
